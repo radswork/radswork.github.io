@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Marmelad|Open+Sans&display=swap');
+
+body {
+	text-align: center;
+	color: #ffffff;
+	background-color: #000000;
+	font-size: 16px;
+	font-family: Open Sans, sans-serif;
+	line-height: 2em;
+	word-spacing: 0.01em;
+}
+
+h1, h2 {
+	font-weight: 1000px;
+	font-family: Marmelad, sans-serif;
+	line-height: 1em;
+	letter-spacing: .02em;
+	word-spacing: 0.1em;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+#slogan {
+	font-style: italic;
+	color: #ff0000;
+}
+
