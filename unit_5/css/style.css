@@ -1,0 +1,52 @@
+		@import url('https://fonts.googleapis.com/css?family=Marmelad|Open+Sans&display=swap');
+
+		main {
+			font-family: "Open Sans";
+			font-size: 1em;
+		}
+
+		header {
+			background-color: #FFED74;
+			border: 1px black solid;
+    		padding: 20px;
+		}
+
+		h1, h2 {
+			font-family: 'Marmelad', sans-serif;
+		}
+
+		nav {
+			background-color: #E8C66A;
+			border: 1px black solid;
+   			padding: 20px;
+		}
+
+		figure {
+			background-color: white;
+			border: 1px black solid;
+   			padding: 20px;
+		}
+
+		section {
+			background-color: #FFE2B8;
+			border: 1px black solid;
+   			padding: 20px;
+		}
+
+		article {
+			background-color: #E89C6C;
+			border: 1px black solid;
+   			padding: 20px;
+		}
+
+		aside {
+			background-color: #FFC675;
+			border: 1px black solid;
+   			padding: 20px;
+		}
+
+		footer {
+			background-color: #FF957E;
+			border: 1px black solid;
+   			padding: 20px;
+		}
