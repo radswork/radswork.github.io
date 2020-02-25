@@ -1,0 +1,82 @@
+		@import url('https://fonts.googleapis.com/css?family=Marmelad|Open+Sans&display=swap');
+
+		main {
+			font-family: "Open Sans";
+			font-size: 1em;
+		}
+
+		header {
+			background-color: #FFED74;
+    		padding: 2%;
+    		text-align: center;
+		}
+
+		h1, h2 {
+			font-family: 'Marmelad', sans-serif;
+		}
+
+		nav {
+			background-color: #E8C66A;
+			width: 33.333%;
+			float: left;
+			padding: 1%;
+
+		}
+
+		figure {
+			background-color: white;
+			border: 1px black solid;
+			width: 33.333%;
+			float: left;
+			padding: 1%;
+			padding-bottom: 26%;
+		}
+
+		section {
+			background-color: #FFE2B8;
+			padding: 1%;
+		}
+
+		article {
+			width: 32.33%;
+			background-color: #E89C6C;
+			float: left;
+			padding: 1%;
+			margin: .5%;
+		}
+
+		aside {
+			background-color: #FFC675;
+   			width: 66.66666%;
+			float: left;
+		}
+
+		#nav-height {
+			display: flex;
+    		margin:0 auto;
+		}
+
+		#fig-collage {
+			width: 80%;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		footer {
+			background-color: #FF957E;
+   			padding: 2%;
+   			clear: both;
+		}
+
+		.clearfix:after {
+    	display: block;
+    	content: " ";
+    	clear: both;
+		}
+
+		* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		}
