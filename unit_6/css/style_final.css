@@ -1,0 +1,121 @@
+		@import url('https://fonts.googleapis.com/css?family=Marmelad|Open+Sans&display=swap');
+
+		main {
+			font-family: "Open Sans";
+			font-size: 1em;
+		}
+
+		header {
+			background-color: #FFFFFF;
+			color: #00868F;
+    		padding-left: 30%;
+    		text-align: center;
+    		background-image: url("../images/logo_place2.png");
+    		background-repeat: no-repeat;
+    		background-size: auto 100%;
+    		background-position: 14px 0;
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		font-size: 1.2vw;
+    		height: 16.33vh;
+		}
+
+		h1, h2 {
+			font-family: 'Marmelad', sans-serif;
+		}
+
+		nav {
+			font-family: 'Marmelad', sans-serif;
+			font-size: 1.6vw;
+			background-color: #FFFFFF;
+			width: 30%;
+			float: left;
+			padding: 1.2% 10% 0% 12%;
+			background-image: url("../images/nav_background.png");
+			background-repeat: no-repeat;
+			background-size: auto 100%;
+			background-position: 10px 0;
+			line-height: 2em;
+			height: 83.33vh;
+			}
+
+		nav a {
+			text-decoration: none;
+			color: #00868F;
+		}
+
+		nav a:hover {
+			text-decoration: none;
+			color: #23344C;
+		}
+
+		#donate {
+			color: #F43069;
+		}	
+
+		figure {
+			background-color: #23344C;
+			width: 31.333%;
+			float: left;
+			padding: 1%;
+			padding-bottom: 29%;
+			margin: 1%;
+		}
+
+		section {
+			background-color: #FFFFFF;
+			padding: 1%;
+		}
+
+		article {
+			width: 32.33%;
+			background-color: #ffffff;
+			float: left;
+			padding: 1%;
+			margin: .5%;
+			color: #23344C;
+			text-align: center;
+		}
+
+		aside {
+			background-color: #FFFFFF;
+   			width: 70%;
+			float: left;
+			padding-bottom: 5%;
+		}
+
+		#nav-height {
+			display: flex;
+    		/*margin:0 auto;*/
+		}
+
+		#fig-collage {
+			width: 80%;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		p {
+			line-height: 1.5em;
+			padding-top: 2%;
+		}
+
+		footer {
+			background-color: #FF957E;
+   			padding: 1%;
+   			clear: both;
+		}
+
+		.clearfix:after {
+    	display: block;
+    	content: " ";
+    	clear: both;
+		}
+
+		* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		}
