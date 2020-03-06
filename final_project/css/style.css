@@ -13,12 +13,12 @@
     		background-image: url("../images/logo_place2.png");
     		background-repeat: no-repeat;
     		background-size: auto 100%;
-    		background-position: 14px 0;
+    		background-position: 11px 0;
     		display: flex;
     		justify-content: center;
     		align-items: center;
     		font-size: 1.2vw;
-    		height: 16.33vh;
+    		height: 16.67vh;
 		}
 
 		h1, h2 {
@@ -37,7 +37,7 @@
 			background-size: auto 100%;
 			background-position: 10px 0;
 			line-height: 2em;
-			height: 83.33vh;
+			height: 83.333vh;
 			}
 
 		nav a {
