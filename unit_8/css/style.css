@@ -10,7 +10,7 @@
 			color: #00868F;
     		padding-left: 30%;
     		text-align: center;
-    		background-image: url("../images/logo_place2.png");
+    		background-image: url("../images/logo_placeholder.png");
     		background-repeat: no-repeat;
     		background-size: auto 100%;
     		background-position: 11px 0;
@@ -132,5 +132,10 @@
 			}
 
 		}
+
+		@media only screen and (max-width: 430px) {
+
+		}
+
 
 		
