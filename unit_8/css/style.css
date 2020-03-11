@@ -1,0 +1,133 @@
+		@import url('https://fonts.googleapis.com/css?family=Marmelad|Open+Sans&display=swap');
+
+		main {
+			font-family: "Open Sans";
+    		font-size: 16px;
+		}
+
+		header {
+			background-color: #FFFFFF;
+			color: #00868F;
+    		padding-left: 30%;
+    		text-align: center;
+    		background-image: url("../images/logo_place2.png");
+    		background-repeat: no-repeat;
+    		background-size: auto 100%;
+    		background-position: 11px 0;
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		height: 16.67vh;
+    		font-size: 2vh;
+		}
+
+		h1, h2 {
+			font-family: 'Marmelad', sans-serif;
+		}
+
+		nav {
+			font-family: 'Marmelad', sans-serif;
+			/*font-size: 1.6vw;*/
+			font-size: 3vh;
+			background-color: #FFFFFF;
+			width: 30%;
+			float: left;
+			padding: 1.2% 10% 0% 12%;
+			background-image: url("../images/nav_background.png");
+			background-repeat: no-repeat;
+			background-size: auto 100%;
+			background-position: 10px 0;
+			line-height: 1.95em;
+			height: 83.333vh;
+			}
+
+		nav a {
+			text-decoration: none;
+			color: #00868F;
+		}
+
+		nav a:hover {
+			text-decoration: none;
+			color: #23344C;
+		}
+
+		#donate {
+			color: #F43069;
+		}	
+
+		figure {
+			background-color: #23344C;
+			width: 31.333%;
+			float: left;
+			padding: 1%;
+			padding-bottom: 29%;
+			margin: 1%;
+		}
+
+		section {
+			background-color: #FFFFFF;
+			padding: 1%;
+		}
+
+		article {
+			width: 32.33%;
+			background-color: #ffffff;
+			float: left;
+			padding: 1%;
+			margin: .5%;
+			color: #23344C;
+			text-align: center;
+		}
+
+		aside {
+			background-color: #FFFFFF;
+   			width: 70%;
+			float: left;
+			/*padding-bottom: 5%;*/
+		}
+
+		#nav-height {
+			display: flex;
+		}
+
+		#fig-collage {
+			width: 80%;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		p {
+			line-height: 1.5em;
+			padding-top: 2%;
+		}
+
+		footer {
+			background-color: #FFFFFF;
+   			padding: 1%;
+   			clear: both;
+   			height: 16.67vh;
+   			display: flex;
+   			justify-content: center;
+    		align-items: center;
+		}
+
+		.clearfix:after {
+    	display: block;
+    	content: " ";
+    	clear: both;
+		}
+
+		* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		}
+
+		@media only screen and (max-width: 800px;) {
+			body {
+				font-size: 10vh;
+			}
+		}
+
+		
