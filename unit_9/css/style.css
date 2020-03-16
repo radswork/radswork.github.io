@@ -17,7 +17,7 @@
     		display: flex;
     		justify-content: center;
     		align-items: center;
-    		height: 16.67vh;
+    		height: 16.666vh;
     		font-size: 2vh;
 		}
 
@@ -37,7 +37,7 @@
 			background-size: auto 100%;
 			background-position: 10px 0;
 			line-height: 1.95em;
-			height: 66.66vh;
+			height: 66.664vh;
 			}
 
 		nav a {
@@ -104,7 +104,7 @@
 			background-color: #FFFFFF;
 			background-image: url("../images/footer_background.png");
    			clear: both;
-   			height: 16.67vh;
+   			height: 16.666vh;
    			display: flex;
    			justify-content: center;
     		align-items: center;
