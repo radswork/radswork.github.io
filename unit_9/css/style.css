@@ -109,7 +109,7 @@
    			display: flex;
    			justify-content: center;
     		align-items: center;
-    		padding-left: 30%;
+    		padding-left: 40%;
     		background-repeat: no-repeat;
     		background-size: auto 100%;
     		background-position: 11px 0;
@@ -159,7 +159,7 @@
 				background-image: none;
 				padding: 0;
 				font-size: 1em;
-				width: 100%;
+				width: 95%;
 			}
 
 			aside {
