@@ -138,11 +138,12 @@
 
 		@media only screen and (min-device-width : 480px) and (max-device-width : 1024px) and (orientation : landscape) {
 			header, h1 {
-				font-size: 5vh;
+				font-size: 4vh;
 			}
 
 			nav a {
 				font-size: 3.7vh;
+				padding-left: 12%
 			}
 
 		}
