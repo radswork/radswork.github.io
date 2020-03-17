@@ -141,11 +141,20 @@
 		@media only screen and (min-width: 480px) and (max-width: 1024px) and (orientation: landscape) {
 			header, h1 {
 				font-size: 4vh;
+				height: 16vh;
 			}
 
 			nav a {
 				font-size: 3vh;
 				padding-left: 15%
+			}
+
+			nav {
+				height: 48vh;
+			}
+
+			footer {
+				height: 16vh;
 			}
 
 
