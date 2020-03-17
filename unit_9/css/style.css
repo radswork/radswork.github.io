@@ -143,7 +143,7 @@
 
 			nav a {
 				font-size: 3vh;
-				padding-left: 14%
+				padding-left: 16%
 			}
 
 			#fig-collage {
@@ -152,7 +152,7 @@
 
 		}
 
-		@media only screen and (min-device-width : 320px) and (max-device-width : 768px) and (orientation : portrait {
+		@media only screen and (min-device-width : 320px) and (max-device-width : 768px) and (orientation : portrait) {
 			nav {
 				clear: left;
 				float: none;
@@ -169,10 +169,10 @@
 			}
 
 
-			header,h1 {
+			header, h1 {
 				background-image: none;
 				font-size: 1em;
-				padding: 0px;
+				padding: 0;
 			}
 
 			footer {
