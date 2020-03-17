@@ -142,8 +142,12 @@
 			}
 
 			nav a {
-				font-size: 3.7vh;
-				padding-left: 12%
+				font-size: 3vh;
+				padding-left: 14%
+			}
+
+			#fig-collage {
+				width: 100%;
 			}
 
 		}
