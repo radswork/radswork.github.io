@@ -149,6 +149,7 @@
 			}
 
 		}
+		*/
 
 		/* For phone and tablet in portrait mode */
 
@@ -157,35 +158,43 @@
 				clear: left;
 				float: none;
 				background-image: none;
-				padding: 10%;
 				font-size: 1em;
 				width: 100%;
-				height: initial;
+				height: auto;
 				text-align: center;
+				padding: 0;
 			}
 
 			aside {
 				clear: left;
 				float: none;
 				width: 100%;
+				height: 60vh;
 			}
 
 
 			header {
 				background-image: none;
-				font-size: 1.3vh;
-				padding: 10px;
-				height: 20px;
+				font-size: 2vh;
+				padding: 0px;
+				height: 10vh;
 			}
 
 			footer {
 				background-image: none;
 				font-size: 1em;
 				padding: 1%;
+				height: 10vh;
 			}
 
 			#nav-height {
 				display: block;
+			}
+
+			figure {
+				width: 48%;
+				float: left;
+				padding-bottom: auto;
 			}
 
 		}
