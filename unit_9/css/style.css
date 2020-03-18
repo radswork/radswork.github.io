@@ -136,37 +136,6 @@
 		box-sizing: border-box;
 		}
 
-		/* For ipad in landscape mode */
-
-		
-		@media only screen and (min-height: 768px) and (orientation: landscape) {
-			header, h1 {
-				font-size: 4vh;
-				height: 16.667vh;
-				display: flex;
-    			justify-content: center;
-    			align-items: center;
-			}
-
-			nav a {
-				font-size: 3vh;
-				padding-left: 30%;
-			}
-
-
-			#fig-collage {
-				width: 95%;
-			}
-
-			aside {
-				height: 66.664vh;
-			}
-
-			footer {
-				height: 16.667vh;
-			}
-		}
-
 		/* For iphone X in landscape mode */
 			
 		@media only screen and (max-width: 812px) and (orientation: landscape) {
