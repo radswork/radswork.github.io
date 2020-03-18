@@ -138,18 +138,27 @@
 
 		/* For phone and tablet in landscape mode */
 
-		/*
+		
 		@media only screen and (min-width: 480px) and (max-width: 1024px) and (orientation: landscape) {
 			header, h1 {
 				font-size: 4vh;
+				height: 16vh;
 			}
 
 			nav a {
 				font-size: 3vh;
 			}
 
+			aside {
+				height: 64vh;
+			}
+
+			footer {
+				height: 16vh;
+			}
+
 		}
-		*/
+		
 
 		/* For phone and tablet in portrait mode */
 
