@@ -139,7 +139,7 @@
 		/* For ipad in landscape mode */
 
 		
-		@media only screen /*and (min-width: 480px)*/ and (max-width: 1024px) and (orientation: landscape) {
+		@media only screen and (max-width: 1024px) and (orientation: landscape) {
 			header, h1 {
 				font-size: 4vh;
 				height: 16.667vh;
