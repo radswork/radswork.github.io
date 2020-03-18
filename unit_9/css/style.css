@@ -167,9 +167,9 @@
 			}
 		}
 
-		/* For iphone 10 plus in landscape mode */
+		/* For iphone X in landscape mode */
 			
-		@media only screen and (min-height: 375px) and (orientation: landscape) {
+		@media only screen and (max-width: 812px) and (orientation: landscape) {
 			header, h1 {
 				font-size: 4vh;
 				height: 16.667vh;
@@ -180,10 +180,6 @@
 
 			nav a {
 				font-size: 3vh;
-			}
-
-			#fig-collage {
-				width: 80%;
 			}
 
 			aside {
