@@ -142,7 +142,7 @@
 		@media only screen and (min-width: 480px) and (max-width: 1024px) and (orientation: landscape) {
 			header, h1 {
 				font-size: 4vh;
-				height: 16.2vh;
+				height: 16.667vh;
 				display: flex;
     			justify-content: center;
     			align-items: center;
@@ -153,11 +153,11 @@
 			}
 
 			aside {
-				height: 64.8vh;
+				height: 66.664vh;
 			}
 
 			footer {
-				height: 16.2vh;
+				height: 16.667vh;
 			}
 
 		}
