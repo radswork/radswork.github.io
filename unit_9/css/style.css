@@ -138,7 +138,7 @@
 
 		/* For iphone X in landscape mode */
 			
-		@media only screen and (min-width: 375) and (max-width: 812px) and (orientation: landscape) {
+		@media only screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
 			header, h1 {
 				height: 16.667vh;
 				display: flex;
