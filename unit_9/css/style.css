@@ -136,7 +136,7 @@
 		box-sizing: border-box;
 		}
 
-		/* For iphone X in landscape mode */
+		/* For iphone 10 in landscape mode */
 			
 		@media only screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
 			header, h1 {
@@ -159,7 +159,7 @@
 			}	
 		}
 
-		/* For iphone X portrait mode */
+		/* For iphone 10 portrait mode */
 
 		@media only screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
 			nav {
