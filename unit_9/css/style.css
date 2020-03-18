@@ -185,6 +185,10 @@
 				height: 16.667vh;
 			}	
 
+			#fig-collage {
+				width: 95%;
+			}
+
 		}
 
 		/* For phone and tablet in portrait mode */
