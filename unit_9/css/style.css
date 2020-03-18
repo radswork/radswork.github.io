@@ -169,7 +169,7 @@
 				width: 100%;
 				text-align: center;
 				padding: 1% 1%;
-				height: 5vh;
+				height: 6vh;
 			}
 
 			nav a {
@@ -190,7 +190,7 @@
 				font-size: .5em;
 				padding-left: 0;
 				padding: 5% 5%;
-				height: 5vh;
+				height: 7vh;
 				vertical-align: center;
 			}
 
@@ -198,7 +198,7 @@
 				background-image: none;
 				font-size: 1em;
 				padding: 1%;
-				height: 10vh;
+				height: 7vh;
 			}
 
 			#nav-height {
