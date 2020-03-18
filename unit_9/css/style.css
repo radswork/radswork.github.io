@@ -136,8 +136,7 @@
 		box-sizing: border-box;
 		}
 
-		/* For iphone 10 in landscape mode */
-			
+		/* For iphone 10 in landscape mode 			
 		@media only screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
 			header, h1 {
 				height: 16.667vh;
@@ -157,7 +156,7 @@
 			footer {
 				height: 16.667vh;
 			}	
-		}
+		}*/
 
 		/* For iphone 10 portrait mode */
 
