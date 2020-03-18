@@ -169,7 +169,7 @@
 
 		/* For iphone in landscape mode */
 			
-		@media only screen and (min-width: 480px) and (max-width: 568px) and (orientation: landscape) {
+		@media only screen and (min-width: 480px) and (max-height: 320px) and (orientation: landscape) {
 			header, h1 {
 				font-size: 4vh;
 				height: 16.667vh;
