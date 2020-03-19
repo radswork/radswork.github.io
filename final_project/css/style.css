@@ -2,23 +2,35 @@
 
 		main {
 			font-family: "Open Sans";
-			font-size: 1em;
+    		font-size: 16px;
+    		width: 70%;
+    		float: left;
+		}
+
+		section {
+			margin: 0;
+			padding: 0;
 		}
 
 		header {
 			background-color: #FFFFFF;
 			color: #00868F;
-    		padding-left: 30%;
+    		/*padding-left: 30%;*/
     		text-align: center;
-    		background-image: url("../images/logo_place2.png");
+    		/*background-image: url("../images/logo_placeholder.png");
     		background-repeat: no-repeat;
     		background-size: auto 100%;
     		background-position: 11px 0;
     		display: flex;
     		justify-content: center;
     		align-items: center;
-    		font-size: 1.2vw;
-    		height: 16.67vh;
+    		min-height: 16.666vh;*/
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		min-height: 16.666vh;
+    		font-size: 1.2em;
+
 		}
 
 		h1, h2 {
@@ -27,17 +39,17 @@
 
 		nav {
 			font-family: 'Marmelad', sans-serif;
-			font-size: 1.6vw;
+			font-size: 1.5em;
 			background-color: #FFFFFF;
 			width: 30%;
 			float: left;
-			padding: 1.2% 10% 0% 12%;
-			background-image: url("../images/nav_background.png");
+			padding: 10.3% 10% 0% 12%;
+			background-image: url("../images/nav_all.png");
 			background-repeat: no-repeat;
 			background-size: auto 100%;
 			background-position: 10px 0;
-			line-height: 2em;
-			height: 83.333vh;
+			line-height: 1.95em;
+			min-height: 100vh;
 			}
 
 		nav a {
@@ -63,31 +75,10 @@
 			margin: 1%;
 		}
 
-		section {
-			background-color: #FFFFFF;
-			padding: 1%;
-		}
-
-		article {
-			width: 32.33%;
-			background-color: #ffffff;
-			float: left;
-			padding: 1%;
-			margin: .5%;
-			color: #23344C;
-			text-align: center;
-		}
-
 		aside {
 			background-color: #FFFFFF;
-   			width: 70%;
-			float: left;
-			padding-bottom: 5%;
-		}
-
-		#nav-height {
-			display: flex;
-    		/*margin:0 auto;*/
+   			width: 100%;
+   			min-height: 6
 		}
 
 		#fig-collage {
@@ -103,9 +94,29 @@
 		}
 
 		footer {
-			background-color: #FF957E;
-   			padding: 1%;
+			background-color: #FFFFFF;
+			color: #00868F;
+			/*background-image: url("../images/footer_background.png");
    			clear: both;
+   			min-height: 16.666vh;
+   			display: flex;
+   			justify-content: center;
+    		align-items: center;
+    		padding-left: 30%;
+    		background-repeat: no-repeat;
+    		background-size: auto 100%;
+    		background-position: 11px 0;*/
+    		min-height: 16.666vh;
+    		text-align: center;
+    		font-size: 1.2em;
+		}
+
+		.connect {
+			padding-left: 30%;
+		}
+
+		.newsletter {
+			padding-right: 30%;
 		}
 
 		.clearfix:after {
@@ -119,3 +130,72 @@
 		padding: 0;
 		box-sizing: border-box;
 		}
+
+		/* For iphone 10 in landscape mode 			
+		@media only screen and (max-width: 812px) {
+
+			nav a {
+				font-size: 1.25em;
+			}
+
+		}
+
+		/* For iphone 10 portrait mode */
+
+		@media only screen and (max-width: 812px) {
+
+			section {
+				background-image: url("../images/nav_all.png");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: auto 100%;
+				height: 100vh;
+			}
+
+			main {
+				width: 100%;
+			}
+
+			nav {
+				float: none;
+				background: none;
+				font-size: 1em;
+				width: 100%;
+				text-align: center;
+				padding: 1% 1%;
+				min-height: auto;
+			}
+
+			nav a {
+				padding-left: .7%;
+				padding-right: .7%;
+			}
+
+			aside {
+				float: none;
+				width: 100%;
+				padding: 6.3%;
+				background: none;
+			}
+
+
+			header {
+				background: none;
+				font-size: 1em;
+				padding: 5% 0 0 5%;
+			}
+
+			footer {
+				background: none;
+				font-size: 1em;
+				padding: 1%;
+			}
+
+			figure {
+				width: 48%;
+				float: left;
+				padding-bottom: 48%;
+			}
+
+		}
+		

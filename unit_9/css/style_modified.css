@@ -1,24 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Marmelad|Open+Sans&display=swap');
+		@import url('https://fonts.googleapis.com/css?family=Marmelad|Open+Sans&display=swap');
 
 		main {
 			font-family: "Open Sans";
     		font-size: 16px;
+    		width: 70%;
+    		float: left;
 		}
 
 		header {
 			background-color: #FFFFFF;
 			color: #00868F;
-    		padding-left: 30%;
+    		/*padding-left: 30%;*/
     		text-align: center;
-    		background-image: url("../images/logo_placeholder.png");
+    		/*background-image: url("../images/logo_placeholder.png");
     		background-repeat: no-repeat;
     		background-size: auto 100%;
     		background-position: 11px 0;
     		display: flex;
     		justify-content: center;
     		align-items: center;
-    		height: 16.666vh;
-    		font-size: 2vh;
+    		min-height: 16.666vh;*/
+    		font-size: 1.2em;
+    		padding: 4% 4% 4% 4%;
 		}
 
 		h1, h2 {
@@ -27,17 +30,17 @@
 
 		nav {
 			font-family: 'Marmelad', sans-serif;
-			font-size: 3vh;
+			font-size: 1.5em;
 			background-color: #FFFFFF;
 			width: 30%;
 			float: left;
-			padding: 1.2% 10% 0% 12%;
-			background-image: url("../images/navonly_background.png");
+			padding: 10.3% 10% 0% 12%;
+			background-image: url("../images/nav_all.png");
 			background-repeat: no-repeat;
 			background-size: auto 100%;
 			background-position: 10px 0;
 			line-height: 1.95em;
-			height: 66.664vh;
+			min-height: 100vh;
 			}
 
 		nav a {
@@ -80,12 +83,7 @@
 
 		aside {
 			background-color: #FFFFFF;
-   			width: 70%;
-			float: left;
-		}
-
-		#nav-height {
-			display: flex;
+   			width: 100%;
 		}
 
 		#fig-collage {
@@ -103,25 +101,26 @@
 		footer {
 			background-color: #FFFFFF;
 			color: #00868F;
-			background-image: url("../images/footer_background.png");
+			/*background-image: url("../images/footer_background.png");
    			clear: both;
-   			height: 16.666vh;
+   			min-height: 16.666vh;
    			display: flex;
    			justify-content: center;
     		align-items: center;
     		padding-left: 30%;
     		background-repeat: no-repeat;
     		background-size: auto 100%;
-    		background-position: 11px 0;
-    		font-size: 2.5vh;
+    		background-position: 11px 0;*/
+    		text-align: center;
+    		font-size: 1.2em;
 		}
 
 		.connect {
-			padding-left: 5%;
+			padding-left: 30%;
 		}
 
 		.newsletter {
-			padding-right: 5%;
+			padding-right: 30%;
 		}
 
 		.clearfix:after {
@@ -136,40 +135,37 @@
 		box-sizing: border-box;
 		}
 
-		/* For iphone 10 in landscape mode */			
-		@media only screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
-			header, h1 {
-				height: 16.667vh;
-				display: flex;
-    			justify-content: center;
-    			align-items: center;
-			}
+		/* For iphone 10 in landscape mode 			
+		@media only screen and (max-width: 812px) {
 
 			nav a {
-				font-size: 3vh;
+				font-size: 1.25em;
 			}
 
-			aside {
-				height: 66.664vh;
-			}
-
-			footer {
-				height: 16.667vh;
-			}	
 		}
 
 		/* For iphone 10 portrait mode */
 
-		@media only screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
+		@media only screen and (max-width: 812px) {
+
+			body {
+				background-image: url("../images/nav_all.png");
+				background-repeat: no-repeat;
+				background-size: 100vh;
+			}
+
+			main {
+				width: 100%;
+			}
+
 			nav {
-				clear: left;
 				float: none;
 				background-image: none;
 				font-size: 1em;
 				width: 100%;
 				text-align: center;
 				padding: 1% 1%;
-				height: 6vh;
+				min-height: auto;
 			}
 
 			nav a {
@@ -178,31 +174,21 @@
 			}
 
 			aside {
-				clear: left;
 				float: none;
 				width: 100%;
-				height: 75vh;
 			}
 
 
 			header {
 				background-image: none;
 				font-size: .5em;
-				padding-left: 0;
 				padding: 5% 5%;
-				height: 7vh;
-				vertical-align: center;
 			}
 
 			footer {
 				background-image: none;
 				font-size: 1em;
 				padding: 1%;
-				height: 7vh;
-			}
-
-			#nav-height {
-				display: block;
 			}
 
 			figure {
@@ -212,3 +198,4 @@
 			}
 
 		}
+		
