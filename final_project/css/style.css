@@ -53,6 +53,7 @@
 			}
 
 		nav a {
+			position: relative;
 			text-decoration: none;
 			color: #00868F;
 		}
@@ -142,7 +143,7 @@
 
 		/* For iphone 10 portrait mode */
 
-		@media only screen and (max-width: 812px) {
+		@media only screen and (max-width: 640px) {
 
 			section {
 				background-image: url("../images/nav_all.png");
