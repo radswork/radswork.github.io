@@ -2,29 +2,15 @@
 
 		main {
 			font-family: "Open Sans";
-    		font-size: 16px;
+    		font-size: 100%;
     		width: 70%;
     		float: left;
-		}
-
-		section {
-			margin: 0;
-			padding: 0;
 		}
 
 		header {
 			background-color: #FFFFFF;
 			color: #00868F;
-    		/*padding-left: 30%;*/
     		text-align: center;
-    		/*background-image: url("../images/logo_placeholder.png");
-    		background-repeat: no-repeat;
-    		background-size: auto 100%;
-    		background-position: 11px 0;
-    		display: flex;
-    		justify-content: center;
-    		align-items: center;
-    		min-height: 16.666vh;*/
     		display: flex;
     		justify-content: center;
     		align-items: center;
@@ -44,16 +30,17 @@
 			width: 30%;
 			float: left;
 			padding: 10.3% 10% 0% 12%;
+			line-height: 1.95em;
 			background-image: url("../images/nav_all.png");
 			background-repeat: no-repeat;
 			background-size: auto 100%;
 			background-position: 10px 0;
-			line-height: 1.95em;
 			min-height: 100vh;
+			position: relative;
 			}
 
 		nav a {
-			position: relative;
+			position: absolute;
 			text-decoration: none;
 			color: #00868F;
 		}
@@ -97,16 +84,6 @@
 		footer {
 			background-color: #FFFFFF;
 			color: #00868F;
-			/*background-image: url("../images/footer_background.png");
-   			clear: both;
-   			min-height: 16.666vh;
-   			display: flex;
-   			justify-content: center;
-    		align-items: center;
-    		padding-left: 30%;
-    		background-repeat: no-repeat;
-    		background-size: auto 100%;
-    		background-position: 11px 0;*/
     		min-height: 16.666vh;
     		text-align: center;
     		font-size: 1.2em;
@@ -132,11 +109,19 @@
 		box-sizing: border-box;
 		}
 
-		/* For iphone 10 in landscape mode 			
+		/* For iphone 10 in landscape mode */ 			
 		@media only screen and (max-width: 812px) {
 
+			nav {
+				line-height: .95em;
+			}
+
 			nav a {
-				font-size: 1.25em;
+				font-size: .5em;
+			}
+
+			header {
+				font-size: .6em;
 			}
 
 		}
