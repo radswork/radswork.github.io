@@ -40,7 +40,6 @@
 			}
 
 		nav a {
-			position: absolute;
 			text-decoration: none;
 			color: #00868F;
 		}
@@ -130,14 +129,6 @@
 
 		@media only screen and (max-width: 640px) {
 
-			section {
-				background-image: url("../images/nav_all.png");
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: auto 100%;
-				height: 100vh;
-			}
-
 			main {
 				width: 100%;
 			}
@@ -145,11 +136,11 @@
 			nav {
 				float: none;
 				background: none;
-				font-size: 1em;
+				font-size: 2em;
 				width: 100%;
 				text-align: center;
 				padding: 1% 1%;
-				min-height: auto;
+				min-height: 5vh;
 			}
 
 			nav a {
@@ -160,21 +151,23 @@
 			aside {
 				float: none;
 				width: 100%;
-				padding: 6.3%;
 				background: none;
+				min-height: 75vh;
 			}
 
 
 			header {
 				background: none;
-				font-size: 1em;
-				padding: 5% 0 0 5%;
+				font-size: .6em;
+				min-height: 10vh;
+
 			}
 
 			footer {
 				background: none;
 				font-size: 1em;
 				padding: 1%;
+				min-height: 10vh;
 			}
 
 			figure {
