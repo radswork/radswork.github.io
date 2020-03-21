@@ -113,6 +113,7 @@
 
 			nav {
 				line-height: .7em;
+				width: 25%;
 			}
 
 			nav a {
@@ -127,6 +128,10 @@
 			footer {
 				font-size: .6em;
 				min-height: 16.666;
+			}
+
+			aside {
+				width: 75%;
 			}
 
 		}
