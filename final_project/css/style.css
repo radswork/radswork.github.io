@@ -121,6 +121,12 @@
 
 			header {
 				font-size: .6em;
+				min-height: 16.666;
+			}
+
+			footer {
+				font-size: .6em;
+				min-height: 16.666;
 			}
 
 		}
