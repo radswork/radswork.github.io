@@ -113,7 +113,7 @@
 
 			nav {
 				line-height: .7em;
-				width: 25%;
+				width: 2=35%;
 			}
 
 			nav a {
@@ -130,8 +130,8 @@
 				min-height: 16.666;
 			}
 
-			aside {
-				width: 75%;
+			main {
+				width: 65%;
 			}
 
 		}
