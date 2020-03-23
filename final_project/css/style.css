@@ -63,7 +63,12 @@
 
 		.bluebg {
 			background-color: #23344C;
-			padding-bottom: 31.333%;
+			font-family: 'Marmelad', sans-serif;
+			color: white;
+			font-size: 1.6em;
+			text-align: center;
+			padding: 10.3% 0;
+			
 		}
 
 		aside {
@@ -197,7 +202,13 @@
 
 			.bluebg {
 				background-color: #23344C;
-				padding-bottom: 48%;
+				font-family: 'Marmelad', sans-serif;
+				color: white;
+				font-size: 1.3em;
+				text-align: center;
+				padding: 15.2% 0;
+			
+			}
 
 		}
 		
