@@ -30,7 +30,7 @@
 			width: 30%;
 			float: left;
 			padding: 10.3% 10% 0% 12%;
-			line-height: 1.95em;
+			line-height: 2em;
 			background-image: url("../images/nav_all.png");
 			background-repeat: no-repeat;
 			background-size: auto 100%;
@@ -103,11 +103,11 @@
 		}
 
 		.connect {
-			padding-left: 30%;
+			padding-left: 20%;
 		}
 
 		.newsletter {
-			padding-right: 30%;
+			padding-right: 0%;
 		}
 
 		.clearfix:after {
@@ -127,7 +127,7 @@
 
 			nav {
 				line-height: .7em;
-				width: 2=3	5%;
+				width: 35%;
 			}
 
 			nav a {
@@ -152,7 +152,7 @@
 
 		/* For iphone 10 portrait mode */
 
-		@media only screen and (max-width: 640px) {
+		@media only screen and (max-width: 768px) {
 
 			main {
 				width: 100%;
@@ -179,7 +179,6 @@
 				background: none;
 				min-height: 65vh;
 			}
-
 
 			header {
 				background: none;
